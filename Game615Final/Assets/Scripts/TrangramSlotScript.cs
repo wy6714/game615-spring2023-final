@@ -8,6 +8,8 @@ public class TrangramSlotScript : MonoBehaviour
     [SerializeField] private Sprite defaultSprite;
     [SerializeField] private Sprite clickSprite;
     [SerializeField] private Sprite hoverSprite;
+    [SerializeField] private GameObject TangramGObj;
+    public GameManager gm;
     
     void Start()
     {
@@ -17,10 +19,7 @@ public class TrangramSlotScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
-        {
-            spriteRenderer.sprite = clickSprite;
-        }
+        
     }
     private void OnMouseEnter()
     {
@@ -31,4 +30,8 @@ public class TrangramSlotScript : MonoBehaviour
     {
         spriteRenderer.sprite = defaultSprite;
     }
+
+    
+
+
 }
