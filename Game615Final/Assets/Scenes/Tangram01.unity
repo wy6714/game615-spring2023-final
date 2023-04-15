@@ -583,7 +583,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 348770297}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 547426518}
+        m_TargetAssemblyTypeName: FinishButton1, Assembly-CSharp
+        m_MethodName: FinishButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &348770297
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1073,6 +1085,7 @@ GameObject:
   m_Component:
   - component: {fileID: 547426517}
   - component: {fileID: 547426516}
+  - component: {fileID: 547426518}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -1109,6 +1122,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &547426518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 547426515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82b2096bd631740b8adf2ef0e3d16ede, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  b1: {fileID: 418916004}
+  t1: {fileID: 732112319}
+  b2: {fileID: 144399686}
+  t2: {fileID: 519954353}
+  b3: {fileID: 1924946408}
+  t3: {fileID: 521564813}
 --- !u!1 &732112319
 GameObject:
   m_ObjectHideFlags: 0
@@ -3708,8 +3739,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 474, y: 271}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 475, y: 271}
+  m_SizeDelta: {x: 183, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1603825592
 MonoBehaviour:

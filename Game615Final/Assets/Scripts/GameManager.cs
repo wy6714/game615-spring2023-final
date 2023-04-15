@@ -10,6 +10,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] private TMP_Text statueText;
     private Color32 rotatingColor = new Color32(173, 72, 59, 255);
     private Color32 movingColor = new Color32(59, 113, 44, 255);
+
+   
     private void Update()
     {
         if (!rotated)
@@ -54,8 +56,20 @@ public class GameManager : MonoBehaviour
       
     }
 
-    public void FinishButton()
+    public static bool CheckDis(GameObject gobj1, GameObject gobj2)
     {
+        Vector2 gobj1Pos = gobj1.transform.position;
+        Vector2 gobj2Pos = gobj2.transform.position;
 
+        float distance = Vector2.Distance(gobj1Pos, gobj2Pos);
+
+        if(distance < 0.2f)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
     }
 }
