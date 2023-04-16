@@ -73,7 +73,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void instructionClose()
+    public void instructionClose() //tangram scene1 instruction close button
     {
         GameObject instcurtion = GameObject.Find("Instruction");
         instcurtion.SetActive(false);
