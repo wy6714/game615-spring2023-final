@@ -5,6 +5,7 @@ using UnityEngine;
 public class TangramScript : MonoBehaviour
 {
     public GameManager gm;
+    public Functions fc;
     public bool selected;
     
     [SerializeField] private GameObject TangramObj;
@@ -13,14 +14,14 @@ public class TangramScript : MonoBehaviour
     {
         if (selected && !gm.rotated)
         {
-            gm.posWithMouse(gameObject);
+            fc.posWithMouse(gameObject);
             transform.localScale = new Vector3(6f, 6f, 6f);
           
         }
 
         if (selected && gm.rotated)
         {
-            gm.rotateWithMouse(gameObject);
+            fc.rotateWithMouse(gameObject);
             transform.localScale = new Vector3(6f, 6f, 6f);
         }
 
