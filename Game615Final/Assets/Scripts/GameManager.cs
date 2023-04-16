@@ -72,4 +72,10 @@ public class GameManager : MonoBehaviour
             return false;
         }
     }
+
+    public void instructionClose()
+    {
+        GameObject instcurtion = GameObject.Find("Instruction");
+        instcurtion.SetActive(false);
+    }
 }
