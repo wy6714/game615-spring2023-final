@@ -15,9 +15,9 @@ public class FinishButton1 : MonoBehaviour
 
     public void FinishButton()
     {
-        bool checkObj1 = Functions.CheckDis(b1, t1);
-        bool checkObj2 = Functions.CheckDis(b2, t2);
-        bool checkObj3 = Functions.CheckDis(b3, t3);
+        bool checkObj1 = Functions.CheckDis(b1, t1,0.2f);
+        bool checkObj2 = Functions.CheckDis(b2, t2, 0.2f);
+        bool checkObj3 = Functions.CheckDis(b3, t3, 0.2f);
 
         if (checkObj1 && checkObj2 && checkObj3)
         {

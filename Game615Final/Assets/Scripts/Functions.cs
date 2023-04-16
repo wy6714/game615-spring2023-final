@@ -21,14 +21,14 @@ public class Functions : MonoBehaviour
         mousePos.z = 0f;
         block.transform.position = mousePos;
     }
-    public static bool CheckDis(GameObject gobj1, GameObject gobj2)
+    public static bool CheckDis(GameObject gobj1, GameObject gobj2,float dis)
     {
         Vector2 gobj1Pos = gobj1.transform.position;
         Vector2 gobj2Pos = gobj2.transform.position;
 
         float distance = Vector2.Distance(gobj1Pos, gobj2Pos);
 
-        if (distance < 0.2f)
+        if (distance < dis)
         {
             return true;
         }

@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class play1Carpet : MonoBehaviour
 {
-  
+    
     private bool activeCarpet = false;
-    private Animator carpetAnim;
+    [SerializeField]private Animator carpetAnim;
+    [SerializeField] private GameObject cursorObj;
+    [SerializeField] private GameObject carpetObj;
 
     void Start()
     {
@@ -17,10 +19,10 @@ public class play1Carpet : MonoBehaviour
     void Update()
     {
         //click carpet to move it
-        if (!activeCarpet && Input.GetMouseButtonDown(0))
+        if (!activeCarpet && Functions.CheckDis(cursorObj,carpetObj,1f) && Input.GetMouseButtonDown(0))
         {
             activeCarpet = true;
-        }else if(activeCarpet && Input.GetMouseButtonDown(0))
+        }else if(activeCarpet && Functions.CheckDis(cursorObj, carpetObj, 1f) && Input.GetMouseButtonDown(0))
         {
             activeCarpet = false;
         }
@@ -28,10 +30,13 @@ public class play1Carpet : MonoBehaviour
         //determine the animation of carpet
         if (activeCarpet)
         {
-
+            carpetAnim.SetTrigger("carpetUp");
         }
+        else
+        {
+            carpetAnim.SetTrigger("carpetBack");
+        }
+        
     }
-
-    
 
 }
