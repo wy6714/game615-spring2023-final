@@ -9,10 +9,11 @@ public class play1Carpet : MonoBehaviour
     [SerializeField]private Animator carpetAnim;
     [SerializeField] private GameObject cursorObj;
     [SerializeField] private GameObject carpetObj;
+    [SerializeField] private GameObject parallelogram;
 
     void Start()
     {
-        
+        parallelogram.SetActive(false);
     }
 
 
@@ -31,10 +32,12 @@ public class play1Carpet : MonoBehaviour
         if (activeCarpet)
         {
             carpetAnim.SetTrigger("carpetUp");
+            parallelogram.SetActive(true);
         }
         else
         {
             carpetAnim.SetTrigger("carpetBack");
+            parallelogram.SetActive(false);
         }
         
     }
