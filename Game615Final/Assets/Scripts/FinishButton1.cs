@@ -21,7 +21,7 @@ public class FinishButton1 : MonoBehaviour
 
         if (checkObj1 && checkObj2 && checkObj3)
         {
-            Debug.Log("yes!");
+            Debug.Log("yes!");// replace it with transfer to playscene2
         }
     }
 }
