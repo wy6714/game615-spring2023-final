@@ -1541,6 +1541,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 1197955601}
   textBoxAni: {fileID: 615115575}
+  textPanelAni: {fileID: 753396768}
 --- !u!1 &886698883
 GameObject:
   m_ObjectHideFlags: 0
@@ -3499,6 +3500,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 1197955601}
   textBoxAni: {fileID: 0}
+  textPanelAni: {fileID: 0}
 --- !u!4 &1961549463
 Transform:
   m_ObjectHideFlags: 0

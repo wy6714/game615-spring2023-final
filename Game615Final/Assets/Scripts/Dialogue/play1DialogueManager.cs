@@ -52,12 +52,26 @@ public class play1DialogueManager : MonoBehaviour
         }
 
         string sentence = sentences.Dequeue();//sentence will be each dequeue elements
+
+        //StopAllCoroutines();//in case there are other animation are showing
+        //StartCoroutine(TypeSentence(sentence));
         Debug.Log(sentence);
 
         //diaplay each queue sentence on the text
         dialogueText.text = sentence;
         
     }
+
+    ////show sentence letter by letter
+    //IEnumerator TypeSentence(string sentence)
+    //{
+    //    dialogueText.text = "";
+    //    foreach(char letter in sentence.ToCharArray())
+    //    {
+    //        dialogueText.text += letter;
+    //        yield return null;//call each frame
+    //    }
+    //}
 
     void EndDialogue()
     {
