@@ -1,10 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class play1DialogueManager : MonoBehaviour
 {
+    public TextMeshProUGUI dialogueText;
     private Queue<string> sentences;
+   
 
     void Start()
     {
@@ -13,6 +17,8 @@ public class play1DialogueManager : MonoBehaviour
 
     public void StartDialogue(Dialogue dialogue)
     {
+        Debug.Log("Start Conversation With: " + dialogue.name);
+
         //clear previous sentences
         sentences.Clear();
 
@@ -40,6 +46,10 @@ public class play1DialogueManager : MonoBehaviour
         }
 
         string sentence = sentences.Dequeue();//sentence will be each dequeue elements
+        Debug.Log(sentence);
+
+        //diaplay each queue sentence on the text
+        dialogueText.text = sentence;
         
     }
 
