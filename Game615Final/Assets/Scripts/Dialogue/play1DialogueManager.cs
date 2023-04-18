@@ -59,14 +59,14 @@ public class play1DialogueManager : MonoBehaviour
 
         //diaplay each queue sentence on the text
         dialogueText.text = sentence;
-        
+
     }
 
-    ////show sentence letter by letter
+    //show sentence letter by letter
     //IEnumerator TypeSentence(string sentence)
     //{
     //    dialogueText.text = "";
-    //    foreach(char letter in sentence.ToCharArray())
+    //    foreach (char letter in sentence.ToCharArray())
     //    {
     //        dialogueText.text += letter;
     //        yield return null;//call each frame
