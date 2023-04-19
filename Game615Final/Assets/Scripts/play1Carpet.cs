@@ -37,7 +37,7 @@ public class play1Carpet : MonoBehaviour
         else
         {
             carpetAnim.SetTrigger("carpetBack");
-            parallelogram.SetActive(false);
+            //parallelogram.SetActive(false);
         }
         
     }

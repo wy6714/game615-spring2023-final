@@ -5,6 +5,7 @@ using UnityEngine;
 public class play1Fourgramcollect : MonoBehaviour
 {
     public bool play1activefourTangram = false;
+    public bool collectFour = false;
     [SerializeField] private Animator TangramAnim;
     [SerializeField] private GameObject cursorObj;
     [SerializeField] private GameObject tangramObj;
@@ -24,6 +25,7 @@ public class play1Fourgramcollect : MonoBehaviour
         if (play1activefourTangram)
         {
             TangramAnim.SetBool("iscollect", true);
+            collectFour = true;
          
         }
 
