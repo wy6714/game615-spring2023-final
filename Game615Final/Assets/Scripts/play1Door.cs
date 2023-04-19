@@ -10,16 +10,21 @@ public class play1Door : MonoBehaviour
     [SerializeField] private Sprite defaultSprite;
     [SerializeField] private Sprite openSprite;
     public TMP_Text wrongText;
+    public GameObject smallTangram;
+    public Animator smallTangramAni;
 
     
 
 
     void Start()
     {
+        smallTangram.SetActive(false);
         wrongText.enabled = false;
         SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>();
 
         spriteRenderer.sprite = defaultSprite;
+
+        
 
         
 
@@ -44,6 +49,10 @@ public class play1Door : MonoBehaviour
         wrongText.enabled = false;
         
         spriteRenderer.sprite = openSprite;
+
+        smallTangram.SetActive(true);
+
+        smallTangramAni.SetBool("isCollect", true);
         
     }
 }
