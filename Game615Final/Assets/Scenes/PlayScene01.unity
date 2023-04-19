@@ -369,7 +369,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2869329446063108573, guid: b7572521dd38d45e290b5a0ace4dff85, type: 3}
       propertyPath: m_SortingOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2869329446063108575, guid: b7572521dd38d45e290b5a0ace4dff85, type: 3}
       propertyPath: m_Name
@@ -1977,6 +1977,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   play1activefourTangram: 0
+  collectFour: 0
   TangramAnim: {fileID: 957212735}
   cursorObj: {fileID: 452191006}
   tangramObj: {fileID: 957212731}
