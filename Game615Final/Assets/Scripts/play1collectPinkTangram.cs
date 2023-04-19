@@ -4,41 +4,54 @@ using UnityEngine;
 
 public class play1collectPinkTangram : MonoBehaviour
 {
-    private bool activeTangram = false;
+    public play1Fourgramcollect play1fourgram;
+    public bool Play1activePinkTangram = false;
+    private bool showtext = false;
+    //private bool dialogueTriggered = false;
     [SerializeField] private Animator TangramAnim;
     [SerializeField] private GameObject cursorObj;
     [SerializeField] private GameObject tangramObj;
     [SerializeField] private GameObject pointerObj;
-
+    [SerializeField] private GameObject DoorPointerObj;
+    [SerializeField] private DialogueTrigger dialogueTrigger;
     void Start()
     {
-        
+        DoorPointerObj.SetActive(false);
     }
-
 
     void Update()
     {
         //click carpet to move it
-        if (!activeTangram && Functions.CheckDis(cursorObj, tangramObj, 0.5f) && Input.GetMouseButtonDown(0))
+        if (!Play1activePinkTangram && Functions.CheckDis(cursorObj, tangramObj, 0.5f) && Input.GetMouseButtonDown(0))
         {
-            activeTangram = true;
+            Play1activePinkTangram = true;
         }
-        //else if (activeTangram && Functions.CheckDis(cursorObj, tangramObj, 1f) && Input.GetMouseButtonDown(0))
-        //{
-        //    activeTangram = false;
-        //}
+    
 
         //determine the animation of carpet
-        if (activeTangram)
+        if (Play1activePinkTangram)
         {
             TangramAnim.SetBool("iscollect",true);
             pointerObj.SetActive(false);
+            
+            showtext = true;
             //parallelogram.SetActive(true);
+            
         }
-        //else
-        //{
-        //    TangramAnim.SetBool("iscollect", false);
-        //    //parallelogram.SetActive(false);
-        //}
+
+        if (showtext)
+        {
+            dialogueTrigger.TriggerDialogue();
+            showtext = false;
+        }
+
+        //if collect both pink and four, show door
+        if(play1fourgram.play1activefourTangram && Play1activePinkTangram)
+        {
+            DoorPointerObj.SetActive(true);
+        }
+
+       
     }
+
 }
