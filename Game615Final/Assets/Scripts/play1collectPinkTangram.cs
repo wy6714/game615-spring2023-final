@@ -6,6 +6,7 @@ public class play1collectPinkTangram : MonoBehaviour
 {
     public play1Fourgramcollect play1fourgram;
     public bool Play1activePinkTangram = false;
+    public bool clickDoor;
     private bool collectPink = false; //check for door, if pink collected
     [SerializeField] private Animator TangramAnim;
     [SerializeField] private GameObject cursorObj;
@@ -17,10 +18,18 @@ public class play1collectPinkTangram : MonoBehaviour
 
     //click door to solve puzzle
     [SerializeField] private GameObject doorObj;
+    //puzzle canvas
+    [SerializeField] private GameObject DoorPuzzleUI;
+    [SerializeField] private GameObject DoorPuzzleContent;
+
     void Start()
     {
+        clickDoor = false;
         DoorPointerObj.SetActive(false);
         //pinkTangramDialogue.SetActive(false);
+
+        DoorPuzzleContent.SetActive(false);
+        DoorPuzzleUI.SetActive(false);
     }
 
     void Update()
@@ -56,7 +65,8 @@ public class play1collectPinkTangram : MonoBehaviour
             //if collect pink and four, and click door -> show puzzle
             if(Functions.CheckDis(cursorObj,doorObj, 2f) && Input.GetMouseButtonDown(0))
             {
-
+                DoorPuzzleContent.SetActive(true);
+                DoorPuzzleUI.SetActive(true);
             }
         }
 
