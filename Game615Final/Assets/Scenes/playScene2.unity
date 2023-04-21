@@ -3518,7 +3518,7 @@ GameObject:
   - component: {fileID: 1128729403}
   - component: {fileID: 1128729402}
   m_Layer: 0
-  m_Name: TopDownHouse_SmallItems_9
+  m_Name: Lamp Picture
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
