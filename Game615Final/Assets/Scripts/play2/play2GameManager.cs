@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class play2GameManager : MonoBehaviour
 {
+    public Animator collectAni;
     void Start()
     {
 
@@ -12,6 +13,9 @@ public class play2GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        if (Input.GetMouseButtonDown(0))
+        {
+            collectAni.SetBool("isCollect", true);
+        }
     }
 }

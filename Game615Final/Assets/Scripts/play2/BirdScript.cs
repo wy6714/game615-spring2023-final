@@ -5,11 +5,13 @@ using UnityEngine;
 public class BirdScript : MonoBehaviour
 {
     private bool dialogueStart;
+    [SerializeField] private GameObject SquareTan;
     [SerializeField] private DialogueTrigger dialogueTrigger;
 
     void Start()
     {
         dialogueStart = false;
+        SquareTan.SetActive(false);
     }
 
     // Update is called once per frame
@@ -17,7 +19,6 @@ public class BirdScript : MonoBehaviour
     {
 
     }
-
 
     void OnCollisionEnter2D(Collision2D collision)
     {
@@ -31,7 +32,14 @@ public class BirdScript : MonoBehaviour
             Destroy(collision.gameObject, 1.5f);
 
 
+            Invoke("showupSquare", 3f);
+
         }
+    }
+
+    public void showupSquare()
+    {
+        SquareTan.SetActive(true);
     }
 
 }
