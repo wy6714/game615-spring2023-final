@@ -4,15 +4,17 @@ using UnityEngine;
 
 public class BirdScript : MonoBehaviour
 {
-    private bool dialogueStart;
+
+
     [SerializeField] private GameObject SquareTan;
     [SerializeField] private DialogueTrigger dialogueTrigger;
+    public string colldeSrting;
 
     private bool collectsquare;
 
     void Start()
     {
-        dialogueStart = false;
+
         SquareTan.SetActive(false);
         collectsquare = false;
     }
@@ -25,13 +27,10 @@ public class BirdScript : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("birdNet") && !collectsquare)
+        if (collision.gameObject.CompareTag(colldeSrting) && !collectsquare)
         {
-            dialogueStart = true;
+
             dialogueTrigger.TriggerDialogue();
-
-            dialogueStart = false;
-
             //Destroy(collision.gameObject, 1.5f);
             collectsquare = true;
 
