@@ -21,6 +21,7 @@ public class play2LampScript : MonoBehaviour
 
 
 
+
     void Start()
     {
         SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>();
