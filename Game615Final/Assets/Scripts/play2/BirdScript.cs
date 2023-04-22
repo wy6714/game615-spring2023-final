@@ -8,6 +8,8 @@ public class BirdScript : MonoBehaviour
 
     [SerializeField] private GameObject SquareTan;
     [SerializeField] private DialogueTrigger dialogueTrigger;
+
+    [SerializeField] private Animator responseAni;
     public string colldeSrting;
 
     private bool collectsquare;
@@ -29,6 +31,7 @@ public class BirdScript : MonoBehaviour
     {
         if (collision.gameObject.CompareTag(colldeSrting) && !collectsquare)
         {
+            responseAni.SetBool("isTalk", true);
 
             dialogueTrigger.TriggerDialogue();
             //Destroy(collision.gameObject, 1.5f);
