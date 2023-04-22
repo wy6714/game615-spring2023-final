@@ -5,17 +5,14 @@ using UnityEngine;
 public class play2GameManager : MonoBehaviour
 {
     public Animator collectAni;
+
+
     void Start()
     {
 
     }
-
-    // Update is called once per frame
-    void Update()
+    private void OnMouseDown()
     {
-        if (Input.GetMouseButtonDown(0))
-        {
-            collectAni.SetBool("isCollect", true);
-        }
+        collectAni.SetBool("isCollect", true);
     }
 }

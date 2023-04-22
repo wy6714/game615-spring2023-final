@@ -8,7 +8,6 @@ public class BirdNetScript : MonoBehaviour
     public Functions fc;
     private bool selected;
 
-    // public GameObject birdNetObj;
 
     void Start()
     {
