@@ -9,7 +9,6 @@ public class play2LampScript : MonoBehaviour
     [SerializeField] private Sprite offSprite;
     [SerializeField] private Sprite onSprite;
 
-    ////////////////////////////////////////////////////////////////////////////
     [SerializeField] private SpriteRenderer spriteRenderer;
 
 
