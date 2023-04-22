@@ -4036,7 +4036,7 @@ MonoBehaviour:
   offSprite: {fileID: -24690109, guid: b35646e5198834b22847fd6a67f463b5, type: 3}
   onSprite: {fileID: -64751764, guid: d7df02fa4c5904a45967b4c611812a64, type: 3}
   spriteRenderer: {fileID: 664116291}
-  Tangram5Obj: {fileID: 0}
+  Tangram5Obj: {fileID: 1612347260}
 --- !u!61 &664116294
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5878,6 +5878,8 @@ GameObject:
   - component: {fileID: 1612347262}
   - component: {fileID: 1612347261}
   - component: {fileID: 1612347263}
+  - component: {fileID: 1612347264}
+  - component: {fileID: 1612347265}
   m_Layer: 0
   m_Name: tangram5
   m_TagString: Untagged
@@ -5945,7 +5947,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1612347260}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.6878242, y: 1.1739006, z: 0}
+  m_LocalPosition: {x: -6.687824, y: 1.1739006, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5982,6 +5984,39 @@ PolygonCollider2D:
       - {x: 0.049999997, y: -0.08}
       - {x: 0.08, y: -0.08}
       - {x: 0.08, y: 0.08}
+--- !u!95 &1612347264
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1612347260}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2ac06da5eea3c43868917fea14e0c2aa, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1612347265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1612347260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 451c51aa8f82247898a02d46f1cddf8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collectAni: {fileID: 1612347264}
 --- !u!1 &1625935385
 GameObject:
   m_ObjectHideFlags: 0
