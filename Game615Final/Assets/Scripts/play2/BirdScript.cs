@@ -8,10 +8,13 @@ public class BirdScript : MonoBehaviour
     [SerializeField] private GameObject SquareTan;
     [SerializeField] private DialogueTrigger dialogueTrigger;
 
+    private bool collectsquare;
+
     void Start()
     {
         dialogueStart = false;
         SquareTan.SetActive(false);
+        collectsquare = false;
     }
 
     // Update is called once per frame
@@ -22,14 +25,15 @@ public class BirdScript : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("birdNet"))
+        if (collision.gameObject.CompareTag("birdNet") && !collectsquare)
         {
             dialogueStart = true;
             dialogueTrigger.TriggerDialogue();
 
             dialogueStart = false;
 
-            Destroy(collision.gameObject, 1.5f);
+            //Destroy(collision.gameObject, 1.5f);
+            collectsquare = true;
 
 
             Invoke("showupSquare", 3f);
