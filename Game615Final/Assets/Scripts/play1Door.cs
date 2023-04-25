@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class play1Door : MonoBehaviour
 {
@@ -53,6 +54,12 @@ public class play1Door : MonoBehaviour
         smallTangram.SetActive(true);
 
         smallTangramAni.SetBool("isCollect", true);
+        Invoke("goScene2", 1.5f);
         
+    }
+
+    public void goScene2()
+    {
+        SceneManager.LoadScene("PlayScene2");
     }
 }
