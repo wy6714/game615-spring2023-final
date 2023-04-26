@@ -8,7 +8,7 @@ public class TangramScript : MonoBehaviour
     public Functions fc;
     public bool selected;
     
-    [SerializeField] private GameObject TangramObj;
+    //[SerializeField] private GameObject TangramObj;
 
     private void Update()
     {
