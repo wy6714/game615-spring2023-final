@@ -18,6 +18,7 @@ public class play2LampScript : MonoBehaviour
     [SerializeField] private SpriteRenderer spriteRenderer;
 
     [SerializeField] private GameObject Tangram5Obj;
+    //public bool collectPurple = false; // for final check transit to tangram
 
 
 
@@ -34,6 +35,7 @@ public class play2LampScript : MonoBehaviour
         if (on && pictureOn)
         {
             Tangram5Obj.SetActive(true);
+            //collectPurple = true;
         }
     }
     private void OnMouseDown()

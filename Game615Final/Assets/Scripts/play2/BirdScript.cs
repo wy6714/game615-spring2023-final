@@ -10,6 +10,7 @@ public class BirdScript : MonoBehaviour
     [SerializeField] private DialogueTrigger dialogueTrigger;
 
     [SerializeField] private Animator responseAni;
+    //public bool collectBird = false;
     public string colldeSrting;
 
     private bool collectsquare;
@@ -46,6 +47,7 @@ public class BirdScript : MonoBehaviour
     public void showupSquare()
     {
         SquareTan.SetActive(true);
+        //collectBird = true;
     }
 
 }
