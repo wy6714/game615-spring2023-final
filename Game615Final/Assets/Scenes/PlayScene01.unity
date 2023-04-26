@@ -408,7 +408,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 277890480}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.65219784, y: 0.025029719, z: 0}
+  m_LocalPosition: {x: 2.7, y: 0.025029719, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -709,7 +709,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 403375220}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.1521978, y: 0.1050297, z: 0}
+  m_LocalPosition: {x: 3, y: 0.1050297, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1590,7 +1590,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 669005421}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.7478018, y: -0.004970312, z: 0}
+  m_LocalPosition: {x: 0.31, y: 0.62, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2263,7 +2263,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 902781668}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.8021984, y: 0.6150297, z: 0}
+  m_LocalPosition: {x: 0.8021984, y: 2.54, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2377,7 +2377,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 909389713}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.8768705, y: -0.49165308, z: 0.103941225}
+  m_LocalPosition: {x: 1.1, y: 0.74, z: 0.103941225}
   m_LocalScale: {x: 3.687397, y: 1.6388432, z: 2.212438}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4993,7 +4993,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000030517578, y: 0}
+  m_AnchoredPosition: {x: 11.1, y: -15.2}
   m_SizeDelta: {x: 188.3089, y: 95.2614}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1938911768
@@ -5016,8 +5016,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "You need to find the right direction to open the door\n\n\n\n\nClick the
-    Correct button \nbelow to open the door:"
+  m_text: "\n\nClick the Correct button \nbelow to open the door:"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f1b9a032c70204de1b9d84c48b1a44ce, type: 2}
   m_sharedMaterial: {fileID: 6982534481954805269, guid: f1b9a032c70204de1b9d84c48b1a44ce, type: 2}
@@ -5119,7 +5118,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1973932173}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.25219822, y: 0.6150297, z: 0}
+  m_LocalPosition: {x: 0.25219822, y: 2.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5427,7 +5426,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2122297780}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.88, y: 0.63, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
