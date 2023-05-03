@@ -10,6 +10,8 @@ public class BirdScript : MonoBehaviour
     [SerializeField] private DialogueTrigger dialogueTrigger;
 
     [SerializeField] private Animator responseAni;
+
+    [SerializeField] private AudioSource animalAudio;
     //public bool collectBird = false;
     public string colldeSrting;
 
@@ -33,6 +35,7 @@ public class BirdScript : MonoBehaviour
         if (collision.gameObject.CompareTag(colldeSrting) && !collectsquare)
         {
             responseAni.SetBool("isTalk", true);
+            animalAudio.Play();
 
             dialogueTrigger.TriggerDialogue();
             //Destroy(collision.gameObject, 1.5f);
