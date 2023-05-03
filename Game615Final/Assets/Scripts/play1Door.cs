@@ -14,6 +14,8 @@ public class play1Door : MonoBehaviour
     public GameObject smallTangram;
     public Animator smallTangramAni;
 
+    [SerializeField] AudioSource doorOpenAudio;
+
     
 
 
@@ -54,6 +56,7 @@ public class play1Door : MonoBehaviour
         smallTangram.SetActive(true);
 
         smallTangramAni.SetBool("isCollect", true);
+        doorOpenAudio.Play();
         Invoke("goScene2", 1.5f);
         
     }
