@@ -193,7 +193,7 @@ GameObject:
   - component: {fileID: 144399690}
   - component: {fileID: 144399689}
   m_Layer: 6
-  m_Name: TangramSprite_1
+  m_Name: T7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -264,7 +264,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &144399689
 MonoBehaviour:
@@ -325,7 +325,7 @@ GameObject:
   - component: {fileID: 145403878}
   - component: {fileID: 145403879}
   m_Layer: 6
-  m_Name: TangramSprite_3
+  m_Name: T3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -396,7 +396,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &145403878
 MonoBehaviour:
@@ -760,7 +760,7 @@ GameObject:
   - component: {fileID: 418916008}
   - component: {fileID: 418916007}
   m_Layer: 6
-  m_Name: TangramSprite_0
+  m_Name: T2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -826,7 +826,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 418916004}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.53, y: 0.55, z: 0}
+  m_LocalPosition: {x: 4.53, y: 0.54999995, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1315,14 +1315,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 521564813}
-  m_LocalRotation: {x: 0.8946709, y: -0.38647878, z: -0.13121194, w: -0.18160836}
-  m_LocalPosition: {x: -1.0400002, y: -0.29999995, z: 0.048643228}
+  m_LocalRotation: {x: 0.9019798, y: -0.37361264, z: -0.08282789, w: -0.199964}
+  m_LocalPosition: {x: -1.02, y: -0.29999995, z: 0.048643228}
   m_LocalScale: {x: 6, y: 6, z: 6}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 623557591}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: -25.238, y: 185.991, z: -494.616}
+  m_LocalEulerAnglesHint: {x: -25, y: 180, z: -495}
 --- !u!1 &547426515
 GameObject:
   m_ObjectHideFlags: 0
@@ -1368,7 +1368,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &547426518
 MonoBehaviour:
@@ -1382,12 +1382,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82b2096bd631740b8adf2ef0e3d16ede, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  b1: {fileID: 418916004}
-  t1: {fileID: 732112319}
-  b2: {fileID: 144399686}
-  t2: {fileID: 519954353}
-  b3: {fileID: 1924946408}
-  t3: {fileID: 521564813}
+  b1: {fileID: 1393317288}
+  b12: {fileID: 418916004}
+  d1: {fileID: 732112319}
+  d12: {fileID: 1778880072}
+  b2: {fileID: 1924946408}
+  d2: {fileID: 521564813}
+  b3: {fileID: 1280707246}
+  d3: {fileID: 2082703671}
+  b4: {fileID: 144399686}
+  b42: {fileID: 145403875}
+  d4: {fileID: 519954353}
+  d42: {fileID: 1863075527}
+  b5: {fileID: 1139867445}
+  d5: {fileID: 658164809}
 --- !u!1 &552676898
 GameObject:
   m_ObjectHideFlags: 0
@@ -1499,9 +1507,8 @@ Transform:
   - {fileID: 521564815}
   - {fileID: 658164810}
   - {fileID: 1863075528}
-  - {fileID: 1393317290}
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &658164809
 GameObject:
@@ -1527,14 +1534,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 658164809}
-  m_LocalRotation: {x: -0, y: -0, z: -0.9154549, w: 0.40242064}
+  m_LocalRotation: {x: -0, y: -0, z: -0.91477156, w: 0.40397152}
   m_LocalPosition: {x: 1.3599999, y: 1.46, z: 0.048643228}
   m_LocalScale: {x: 6, y: 6, z: 6}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 623557591}
   m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -132.541}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -132.347}
 --- !u!212 &658164811
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1817,7 +1824,7 @@ GameObject:
   - component: {fileID: 1139867449}
   - component: {fileID: 1139867448}
   m_Layer: 6
-  m_Name: TangramSprite_5
+  m_Name: T5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1888,7 +1895,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1139867448
 MonoBehaviour:
@@ -2006,14 +2013,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1177269994}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: -0, y: 0.008727774, z: -0, w: 0.9999619}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1146200885}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 1, z: 0}
 --- !u!483693784 &1177269996
 TilemapRenderer:
   m_ObjectHideFlags: 0
@@ -3382,7 +3389,7 @@ GameObject:
   - component: {fileID: 1280707249}
   - component: {fileID: 1280707250}
   m_Layer: 6
-  m_Name: TangramSprite_2
+  m_Name: T6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3453,7 +3460,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!60 &1280707249
 PolygonCollider2D:
@@ -3595,6 +3602,7 @@ GameObject:
   - component: {fileID: 1381692807}
   - component: {fileID: 1381692806}
   - component: {fileID: 1381692805}
+  - component: {fileID: 1381692809}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -3680,13 +3688,43 @@ RectTransform:
   - {fileID: 1603825591}
   - {fileID: 405166378}
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!60 &1381692809
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1381692804}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0, y: 1}
+      - {x: -0.95105654, y: 0.30901697}
+      - {x: -0.5877852, y: -0.80901706}
+      - {x: 0.58778536, y: -0.80901694}
+      - {x: 0.9510565, y: 0.30901712}
 --- !u!1 &1393317288
 GameObject:
   m_ObjectHideFlags: 0
@@ -3698,8 +3736,9 @@ GameObject:
   - component: {fileID: 1393317290}
   - component: {fileID: 1393317289}
   - component: {fileID: 1393317291}
+  - component: {fileID: 1393317292}
   m_Layer: 0
-  m_Name: TangramSprite_0 (2)
+  m_Name: T1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3765,12 +3804,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1393317288}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.54, y: 2.35, z: 0.048643228}
+  m_LocalPosition: {x: 4.56, y: 1.5899999, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 623557591}
-  m_RootOrder: 7
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1393317291
 MonoBehaviour:
@@ -3787,6 +3826,37 @@ MonoBehaviour:
   gm: {fileID: 547426516}
   fc: {fileID: 1615202099}
   selected: 0
+--- !u!60 &1393317292
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1393317288}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.31, y: 0.16}
+    newSize: {x: 0.31, y: 0.16}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.024999999, y: 0.08}
+      - {x: -0.155, y: -0.049999997}
+      - {x: -0.155, y: -0.08}
+      - {x: 0.155, y: -0.08}
+      - {x: 0.155, y: -0.049999997}
+      - {x: 0.024999999, y: 0.08}
 --- !u!1 &1400528308
 GameObject:
   m_ObjectHideFlags: 0
@@ -4699,7 +4769,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1631496024
 PrefabInstance:
@@ -4824,7 +4894,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1778880072
 GameObject:
@@ -5068,7 +5138,7 @@ GameObject:
   - component: {fileID: 1924946412}
   - component: {fileID: 1924946411}
   m_Layer: 6
-  m_Name: TangramSprite_4
+  m_Name: T4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5133,14 +5203,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1924946408}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.5230255, y: -1.5581566, z: 0}
+  m_LocalRotation: {x: 0.9019798, y: -0.37361264, z: -0.08282789, w: -0.199964}
+  m_LocalPosition: {x: 4.6, y: -1.49, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: -25, y: 180, z: -495}
 --- !u!114 &1924946411
 MonoBehaviour:
   m_ObjectHideFlags: 0
