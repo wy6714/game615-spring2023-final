@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class FinishButton1 : MonoBehaviour
 {
@@ -67,6 +68,7 @@ public class FinishButton1 : MonoBehaviour
         if(checkBigTriangle && checkParallelogram && checkSquare && checkSmalltriangle && checkMiddleTriangle)
         {
             Debug.Log("yes");
+            SceneManager.LoadScene("menu");
         }
 
 
