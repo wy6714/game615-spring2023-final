@@ -5808,7 +5808,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1607886210
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6310,7 +6310,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1807788586
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6697,7 +6697,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1893111512
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8093,6 +8093,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1807788585}
     - target: {fileID: 1000993499346684809, guid: 04be29384bb6941799b90d62a7fef6bf, type: 3}
+      propertyPath: collectTangram
+      value: 
+      objectReference: {fileID: 243051448}
+    - target: {fileID: 1000993499346684809, guid: 04be29384bb6941799b90d62a7fef6bf, type: 3}
       propertyPath: transitSceneScript
       value: 
       objectReference: {fileID: 1343987827}
@@ -8144,6 +8148,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -122.747
       objectReference: {fileID: 0}
+    - target: {fileID: 1000993499346684815, guid: 04be29384bb6941799b90d62a7fef6bf, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 04be29384bb6941799b90d62a7fef6bf, type: 3}
 --- !u!1001 &2489651673565643239
@@ -8162,9 +8170,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1607886209}
     - target: {fileID: 2489651674595209915, guid: 47b9836a762a446438ee625d19c593bb, type: 3}
+      propertyPath: collectTangram
+      value: 
+      objectReference: {fileID: 2145547095}
+    - target: {fileID: 2489651674595209915, guid: 47b9836a762a446438ee625d19c593bb, type: 3}
       propertyPath: transitSceneScript
       value: 
       objectReference: {fileID: 1343987827}
+    - target: {fileID: 2489651674595209917, guid: 47b9836a762a446438ee625d19c593bb, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2489651674595209918, guid: 47b9836a762a446438ee625d19c593bb, type: 3}
       propertyPath: m_RootOrder
       value: 38
@@ -8218,9 +8234,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5624996227757171492, guid: f43fffe6d9c4d43208e470a6b1556fa6, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5624996227757171493, guid: f43fffe6d9c4d43208e470a6b1556fa6, type: 3}
       propertyPath: m_Name
       value: tangram5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5624996227757171494, guid: f43fffe6d9c4d43208e470a6b1556fa6, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5624996227757171495, guid: f43fffe6d9c4d43208e470a6b1556fa6, type: 3}
       propertyPath: m_RootOrder
@@ -8270,6 +8294,10 @@ PrefabInstance:
       propertyPath: slotTangram
       value: 
       objectReference: {fileID: 1893111511}
+    - target: {fileID: 5624996227757171672, guid: f43fffe6d9c4d43208e470a6b1556fa6, type: 3}
+      propertyPath: collectTangram
+      value: 
+      objectReference: {fileID: 1612347260}
     - target: {fileID: 5624996227757171672, guid: f43fffe6d9c4d43208e470a6b1556fa6, type: 3}
       propertyPath: transitSceneScript
       value: 

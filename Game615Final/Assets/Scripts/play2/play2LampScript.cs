@@ -17,7 +17,7 @@ public class play2LampScript : MonoBehaviour
 
     [SerializeField] private SpriteRenderer spriteRenderer;
 
-    [SerializeField] private GameObject Tangram5Obj;
+    public GameObject Tangram5Obj;
     //public bool collectPurple = false; // for final check transit to tangram
 
 
