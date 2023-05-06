@@ -7,7 +7,8 @@ This is a point and click puzzle game. You were locked in a strange place during
 [PLAY](https://wy6714.github.io/game615-spring2023-final/Game615Final/play/) | [Resources](https://github.com/wy6714/game615-spring2023-final)
 
 **Gameplay Video**
-<iframe src="https://drive.google.com/file/d/1EmxFNOWaD0if1YZ5t0pNRX4C30raN6t6/preview" width="640" height="480"></iframe>
+
+https://user-images.githubusercontent.com/78013025/236635056-6cd22217-5c8b-4c7c-9632-f9d9cc0a6f1f.mov
 
 
 ### Credit
