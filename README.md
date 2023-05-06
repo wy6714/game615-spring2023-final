@@ -2,9 +2,13 @@
 by Yifei Wang
 
 This is a point and click puzzle game. You were locked in a strange place during the final. You are anxious because the ddl is fast approaching but you were locked there and have no idea about you final. You start to explore things around you. You find there are some shapes you can collect….What those shapes can do?
-
-# Play
+# [PLAY](https://wy6714.github.io/game615-spring2023-final/Game615Final/play/)
 [PLAY](https://wy6714.github.io/game615-spring2023-final/Game615Final/play/) | [Resources](https://github.com/wy6714/game615-spring2023-final)
+
+
+# Trailer
+
+https://user-images.githubusercontent.com/78013025/236635346-f40e588c-aef8-4fde-b32e-352b48d04fa1.MOV
 
 # **Gameplay Video**
 
